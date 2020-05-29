@@ -4,7 +4,11 @@
 3)  @material-ui/core
 
 
-
+## Operations:
+1. list all to-do items
+2. add a new item to the list
+3. delete an item from the list
+4. click an item to mark it as complete. clicking on it again will mark it as incomplete
 
 
 

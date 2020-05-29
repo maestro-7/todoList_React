@@ -1,3 +1,13 @@
+## Dependancies-
+1)  React
+2)  @material-ui/icons
+3)  @material-ui/core
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

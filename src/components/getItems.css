@@ -1,0 +1,38 @@
+
+ .mainList{
+    padding:  2px;
+    height: 450px;
+    overflow: auto;
+}
+.list {
+    color: white;
+
+    min-height: 50px;
+    width: 90%;
+    margin: 4% ;
+    border-radius:5px;
+    display: inline-block;
+    
+}
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 0;
+    vertical-align: middle;
+}
+.notmark{
+    background-color: #b0486b;
+}
+.mark{
+    background-color: #4858b0;
+
+}
+
+.text {
+   width:260px;
+   max-width: 260px;
+   padding: 2px;
+   overflow-wrap: break-word;
+}

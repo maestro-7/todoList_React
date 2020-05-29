@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body{
+  background-image: linear-gradient(120deg,#487eb0,#fbc531);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.appName{
+  position: absolute;
+  left: 35%;
+  top: -6%;
+  color: #5159a7;
+  font-size: x-large;
+  font-weight: 800;
+  
+}
+.App{
+  background-color: rgb(0,0,0,0.05);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 3px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#todoform{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 0;
+ 
 }
+#todoform button{
+  display: inline;
+  margin-top: 8px;
+  margin-bottom: 2%;
+  margin: 1%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+#todoform input{
+  background-color: rgb(0,0,0,0.1);
+  width: 73%;
+  height: 50%;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin-left: 2%;
+  margin-top: 8px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 2%;
+  font-size: 15px;
+  align-self: center;
+  border-radius: 8px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+#todoform input::placeholder{
+    margin: 5px;
+    color:rgba(255,255,255,0.5);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#todoform input:focus{
+  outline: none;
+
+}
+
+
+#todoform button{
+  height: 30px;
+  width:80px;
+  border-radius: 5px;
+  border:0;
+  background-color: #487eb0;
+  cursor: pointer;
+  font-weight: bolder;
+  color:white;
+
+}
+
+.getItem{
+  border: 1px solid;
+
+
 }
